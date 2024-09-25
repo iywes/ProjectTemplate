@@ -13,8 +13,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
     <jacoco.plugin.version>0.8.10</jacoco.plugin.version>
     <spotbugs.plugin.version>4.7.3.5</spotbugs.plugin.version>
     <checkstyle.plugin.version>3.3.0</checkstyle.plugin.version>
@@ -60,7 +60,7 @@
           <artifactId>spotbugs-maven-plugin</artifactId>
           <version>${spotbugs.plugin.version}</version>
           <configuration>
-            <excludeFilterFile>./config/spotbug/spotBugIgnore.xml</excludeFilterFile>
+            <excludeFilterFile>./.config/spotbug/spotBugIgnore.xml</excludeFilterFile>
           </configuration>
         </plugin>
         <plugin>
@@ -76,8 +76,8 @@
             <sourceDirectories>
               <sourceDirectory>src/main/java</sourceDirectory>
             </sourceDirectories>
-            <configLocation>./config/checkstyle/checkstyle.xml</configLocation>
-            <suppressionsLocation>./config/checkstyle/checkstyle-suppressions.xml</suppressionsLocation>
+            <configLocation>.config/checkstyle/checkstyle.xml</configLocation>
+            <suppressionsLocation>./.config/checkstyle/checkstyle-suppressions.xml</suppressionsLocation>
             <includeTestSourceDirectory>false</includeTestSourceDirectory>
             <enableRulesSummary>true</enableRulesSummary>
           </configuration>
