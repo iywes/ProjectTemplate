@@ -22,3 +22,9 @@ Q
 ..config/checkstyle/checkstyle-suppressions.xml,5/b/5b2539565ffcec408924f009168f3f0743b5a097
 Q
 !.config/checkstyle/checkstyle.xml,1/1/1149cb1e4756a1531f8161e794998aa3f10e683d
+A
+SubModule/pom.xml,f/8/f8e741f918d0f6bcc2a7a4d9541cad2b7725b2fb
+b
+2SubModule/src/main/java/io/github/fourth/Main.java,8/1/81142faf909b163eb7e62a3932340c8fe59ab2f7
+f
+6SubModule/src/test/java/io/github/fourth/MainTest.java,a/f/af2798714b11ded68b503552276801b08434ab55

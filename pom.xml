@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.github.fourth</groupId>
+  <groupId>io.github.fourth</groupId>
   <artifactId>ProjectTemplate</artifactId>
   <packaging>pom</packaging>
   <version>1.0.0</version>
@@ -24,7 +24,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.github.fourth</groupId>
+        <groupId>io.github.fourth</groupId>
         <artifactId>SubModule</artifactId>
         <version>1.0.0</version>
       </dependency>
