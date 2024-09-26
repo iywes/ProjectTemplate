@@ -1,4 +1,3 @@
-
 <a href="https://codecov.io/gh/iywe/ProjectTemplate/branch/main"><img src="https://img.shields.io/codecov/c/github/iywe/ProjectTemplate/main?logo=codecov&logoColor=white" alt="Coverage Status"></a>
 <a href="https://github.com/iywe/ProjectTemplate/actions/workflows/build_and_test.yaml">
 <img src="https://img.shields.io/github/actions/workflow/status/iywe/ProjectTemplate/build_and_test.yaml?branch=main&logo=github&logoColor=white&label=fast ci" alt="Github Workflow Build Status">
